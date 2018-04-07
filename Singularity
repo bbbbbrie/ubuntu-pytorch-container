@@ -10,7 +10,7 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     sed -i 's/$/ universe/' /etc/apt/sources.list
     touch /usr/bin/nvidia-smi
     apt-get -y update
-    apt-get -y --force-yes install blender fortune libxv1 libx11-6 lolcat python3 python3-pip wget
+    apt-get -y --force-yes install blender fortune libxv1 libx11-6 lolcat python3 python3-pip python3-tk wget
     pip3 install gym jupyter lmdb matplotlib numpy pandas scipy six tqdm
     pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.1-cp35-cp35m-linux_x86_64.whl 
     pip3 install torch torchvision    

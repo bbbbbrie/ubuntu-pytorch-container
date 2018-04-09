@@ -17,6 +17,8 @@ Build the container with something like ```singularity build pytorch-friends.img
 Alternately, you can pull from Singularity Hub like so: ```singularity pull shub://bbbbbrie/xenial-pytorch-container```
 
 ## Invocation
+Execute ```singularity run shub://bbbbbrie/xenial-pytorch-container``` 
+
 Run ```singularity shell --nv pytorch-friends.img```
 
 Enjoy!
